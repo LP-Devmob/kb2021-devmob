@@ -1,8 +1,8 @@
 # Présentation UX
 
-## Personas (Ewen)
+## Personas (Ewen Tonnerre)
 Blablabla les personnas...
 
 
-## Prototype interactif (Nico)
+## Prototype interactif (Mary)
 Blablabla les prototypes interactifs sont des outils de conception plus évolués que les maquettes statiques par exemple.
