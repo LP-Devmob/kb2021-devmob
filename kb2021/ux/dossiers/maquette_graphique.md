@@ -1,8 +1,6 @@
 Maquette graphique
 ==========
 
-objectif : 
+Objectif : créer de l'engagement. 
 
-créer de l'engagement. 
-
-Auteur : Sophie Pan & Romain Roudier
+Auteurs : Sophie Pan & Romain Roudier
