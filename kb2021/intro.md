@@ -7,7 +7,9 @@ En collaborant durant l'année et pour chacune des unités d'enseignement, les �
 Liste des contributeurs étudiants (2021/2022) : 
 
 
+- [NOM Prenom](https://github.com/github_id)
 - [MARY Nicolas](https://github.com/Nicobond07)
+- [Tonnerre Ewen](htpps://github.com/ewenTonnerre)
 
 Liste des contributeurs enseignants et intervenants professionnels (2021/2022) :
 
