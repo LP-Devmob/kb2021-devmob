@@ -21,7 +21,9 @@ parts:
     chapters: 
     - file: ux/random_md
       sections:
+      - file: ux/dossiers/ux_Abbasi_elyas.md
       - file: ux/dossiers/sujet1
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
+      - file: ux/dossiers/ux_kpi
     - file: ux/random_md2
