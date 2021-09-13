@@ -1,5 +1,5 @@
 # Ma branche, mon fichier, mon univers...
 
-## Du git une fois par jour, résoud tous vos problèmes
+## Du git une fois par jour, résout tous vos problèmes
 
 ### Titre 3 ... 
