@@ -4,7 +4,7 @@
 ![merged PRs](https://img.shields.io/github/issues-search/LP-Devmob/kb2021-devmob?label=merged%20PRs&query=is%3Apr+is%3Aclosed+is%3Amerged)
 
 
-# LP CDTL Cloud - Knowledge base 2021 !
+# LP CDTL Devmob - Knowledge base 2021 !
 
 Cette base de connaissance est construite tout au long de l'année par les étudiants de la [LP CDTL, parcours Devmob fullstack et IOT](https://www.iut-larochelle.fr/formations/departement-informatique/licence-professionnelle-developpeur-mobile-full-stack-iot/) de l'IUT de La Rochelle.
 
