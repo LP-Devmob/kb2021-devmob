@@ -1,18 +1,18 @@
-![deploy workflow](https://github.com/LP-Dev-Cloud/kb2021/actions/workflows/deploy.yml/badge.svg)
-[![GitHub issues open](https://img.shields.io/github/issues/LP-Dev-Cloud/kb2021.svg)](https://github.com/LP-Dev-Cloud/kb2021/issues)
-![unmerged PRs](https://img.shields.io/github/issues-search/LP-Dev-Cloud/kb2021?label=unmerged%20PRs&query=is%3Apr%20state%3Aopen%20is%3Aunmerged)
-![merged PRs](https://img.shields.io/github/issues-search/LP-Dev-Cloud/kb2021?label=merged%20PRs&query=is%3Apr+is%3Aclosed+is%3Amerged)
+![deploy workflow](https://github.com/LP-Devmob/kb2021-devmob/actions/workflows/deploy.yml/badge.svg)
+[![GitHub issues open](https://img.shields.io/github/issues/LP-Devmob/kb2021-devmob.svg)](https://github.com/LP-Devmob/kb2021-devmob/issues)
+![unmerged PRs](https://img.shields.io/github/issues-search/LP-Devmob/kb2021-devmob?label=unmerged%20PRs&query=is%3Apr%20state%3Aopen%20is%3Aunmerged)
+![merged PRs](https://img.shields.io/github/issues-search/LP-Devmob/kb2021-devmob?label=merged%20PRs&query=is%3Apr+is%3Aclosed+is%3Amerged)
 
 
 # LP CDTL Cloud - Knowledge base 2021 !
 
-Cette base de connaissance est construite tout au long de l'année par les étudiants de la [LP CDTL, parcours Cloud](https://www.iut-larochelle.fr/formations/departement-informatique/licence-professionnelle-developpeur-cloud/) de l'IUT de La Rochelle, dont les enseignements sont dispensés sur le site de [Niort Tech](https://www.niort-tech.fr/). 
+Cette base de connaissance est construite tout au long de l'année par les étudiants de la [LP CDTL, parcours Devmob fullstack et IOT](https://www.iut-larochelle.fr/formations/departement-informatique/licence-professionnelle-developpeur-mobile-full-stack-iot/) de l'IUT de La Rochelle.
 
 ## Usage
 
 ### Building the book
 
-If you'd like to develop on and build the LP CDTL Cloud - Knowledge base 2021 book, you should:
+If you'd like to develop on and build the LP CDTL Devmob - Knowledge base 2021 book, you should:
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
@@ -34,7 +34,7 @@ This will automatically push your build to the `gh-pages` branch. More informati
 
 ## Contributors
 
-This repository is maintained by the students of the [LP CDTL, parcours Cloud](https://www.iut-larochelle.fr/formations/departement-informatique/licence-professionnelle-developpeur-cloud/).
+This repository is maintained by the students of the [LP CDTL, parcours Cloud](https://www.iut-larochelle.fr/formations/departement-informatique/licence-professionnelle-developpeur-mobile-full-stack-iot/).
 
 ## Credits
 
