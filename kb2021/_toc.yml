@@ -1,0 +1,27 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  # harmonisation_bd
+  - caption: Harmonisation BD
+    chapters: 
+    - file: harmonisation_bd/random_md
+  # gpi
+  - caption: Gestion de projet
+    chapters:
+    - file: gpi/random_md
+  # devops
+  - caption: Devops
+    chapters:
+    - file: devops/random_md
+  # ux
+  - caption: UX
+    chapters: 
+    - file: ux/random_md
+      sections:
+      - file: ux/dossiers/sujet1
+      - file: ux/dossiers/sujet2
+      - file: ux/dossiers/sujet3
+    - file: ux/random_md2
