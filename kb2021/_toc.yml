@@ -22,6 +22,7 @@ parts:
     - file: ux/random_md
       sections:
       - file: ux/dossiers/sujet1
+      - file: ux/dossiers/nathan_bregaint.md
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
     - file: ux/random_md2
