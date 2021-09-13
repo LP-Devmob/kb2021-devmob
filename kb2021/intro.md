@@ -8,6 +8,7 @@ Liste des contributeurs étudiants (2021/2022) :
 
 
 - [MARY Nicolas](https://github.com/Nicobond07)
+- [VERGER Sandy](https://github.com/sandyverger)
 
 Liste des contributeurs enseignants et intervenants professionnels (2021/2022) :
 
