@@ -1,4 +1,4 @@
-Sujet UX 1
+Sujet Thinking Aloud
 ==========
 
-Auteur : XYZ
+Auteur : THEODET Julien
