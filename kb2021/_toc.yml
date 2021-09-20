@@ -25,5 +25,6 @@ parts:
       - file: ux/dossiers/sujet1
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
+      - file: ux/dossiers/ux-Theodet_Julien
       - file: ux/dossiers/ux_kpi
     - file: ux/random_md2
