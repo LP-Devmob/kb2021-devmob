@@ -60,12 +60,10 @@ L'utilité de cette méthode est de vérifier la facilité de repérage des util
 ### <strong style="color:#890089"><i>Récupérer les données</i></strong>
 
 La récupération des données se fait pendant et après la séance.
-Pendant la séance, ce sera le comportement et le raisonnement des participants qui sera étudié. Ainsi, les observateurs pourront remarquer s'ils ont plus ou moins de difficultés à se repérer et à naviguer au sein des différentes cartes ou catégories. </br>
-Après la séance, ce seront les groupes et les cartes qui seront étudiés.
-
-### <strong style="color:#890089"><i>Les groupes</i></strong>
-
-### <strong style="color:#890089"><i>Les cartes</i></strong>
+Pendant la séance, ce sera le comportement et le raisonnement des participants qui seront étudiés. Ainsi, les observateurs pourront remarquer s'ils ont plus ou moins de difficultés à se repérer et à naviguer au sein des différentes cartes ou catégories. </br>
+Après la séance, ce seront les groupes et les cartes qui seront étudiés. </br>
+Les groupes permettent de voir si les l'architecture actuelle correspond aux besoins de l'utilisateur. </br>
+Les cartes, quant à elle, sont là pour valider les fonctionnalités de l'application.
 
 ## <strong style="color:#890089">Personnel requis</strong>
 
