@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A / B TESTING &#8212; LP CDTL Devmob - KB2021</title>
+    <title>1. Qu’est-ce que l’A/B testing ? &#8212; LP CDTL Devmob - KB2021</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,6 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Sujet UX 1" href="sujet1.html" />
-    <link rel="prev" title="UX - Dossiers" href="../random_md.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -134,39 +132,34 @@
   UX
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../random_md.html">
    UX - Dossiers
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     A / B TESTING
-    </a>
-   </li>
+  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="sujet1.html">
+    <a class="reference internal" href="../dossiers/sujet1.html">
      Sujet UX 1
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="sujet2.html">
+    <a class="reference internal" href="../dossiers/sujet2.html">
      Sujet UX 2
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="sujet3.html">
+    <a class="reference internal" href="../dossiers/sujet3.html">
      Sujet UX 3
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ux_kpi.html">
+    <a class="reference internal" href="../dossiers/ux_kpi.html">
      Sujet à moi et rien qu’à moi
     </a>
    </li>
@@ -218,7 +211,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/ux/dossiers/ux_Abbasi_elyas.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/ux/Evaluation/AB-Testing_Abbasi_elyas.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -238,7 +231,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/LP-Devmob/kb2021-devmob/issues/new?title=Issue%20on%20page%20%2Fux/dossiers/ux_Abbasi_elyas.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/LP-Devmob/kb2021-devmob/issues/new?title=Issue%20on%20page%20%2Fux/Evaluation/AB-Testing_Abbasi_elyas.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -259,6 +252,68 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   1. Qu’est-ce que l’A/B testing ?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pourquoi-faire-de-la-b-testing">
+   2. Pourquoi faire de l’A/B testing ?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quelles-sont-les-regles-de-test-a-b">
+   3. Quelles sont les règles de test A/B ?
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#regle-n1-definissez-votre-objectif">
+     Règle n°1 : définissez votre objectif
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#regle-n2-testez-un-element-a-la-fois">
+     Règle n°2 : testez un élément à la fois
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#regle-n3-verifiez-si-vos-resultats-sont-statistiquement-significatifs">
+     Règle n°3 : vérifiez si vos résultats sont statistiquement significatifs
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#regle-n4-documentez-les-tests-menes">
+     Règle n°4 : documentez les tests menés
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#regle-n5-testez-en-permanence">
+     Règle n°5 : testez en permanence
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quels-outils-utiliser-pour-faire-de-la-b-testing">
+   4. Quels outils utiliser pour faire de l’A/B testing ?
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-sources">
+     Les sources :
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -268,9 +323,65 @@
               <div>
                 
   <p>Sujet UX A / B testing</p>
-<p>Auteur : Erwann BLOT, Elyas ABBASI</p>
-<div class="section" id="a-b-testing">
-<h1>A / B TESTING<a class="headerlink" href="#a-b-testing" title="Permalink to this headline">¶</a></h1>
+<p>Auteur : Elyas ABBASI</p>
+<div class="section" id="qu-est-ce-que-la-b-testing">
+<h1>1. Qu’est-ce que l’A/B testing ?<a class="headerlink" href="#qu-est-ce-que-la-b-testing" title="Permalink to this headline">¶</a></h1>
+<p>L’A/B testing est une méthode qui consiste à tester deux variations d’une seule page web afin d’observer laquelle convertit le mieux.</p>
+<p>L’objectif va être d’envoyer des visiteurs sur les deux pages afin d’obtenir un pourcentage de réussite concluant sur les deux pages.</p>
+<p><img alt="A-Btesting-1.png" src="ux/Evaluation/..%5Cux%5Cimg%5CA-Btesting-1.png" /></p>
+<p>Un test A/B permet donc de tester plusieurs versions d’un contenu digital (page Web, landing page, formulaire, email…) et d’identifier la version la plus performante selon l’objectif défini (nombre de visiteurs, clics, inscriptions, ouvertures, taux de rebond…). Lorsque plus de deux versions sont testées, on parle également d’A/X testing.</p>
+<p>Par exemple, il est possible d’A/B tester :</p>
+<ul class="simple">
+<li><p>La photo d’un produit d’une page e-commerce pour analyser ce qui vend le plus.</p></li>
+<li><p>l’objet d’un email pour sélectionner celui qui génère le taux d’ouverture plus élevé.</p></li>
+</ul>
+<p><img alt="ux-design-mvt-test.jpg" src="ux/Evaluation/..%5Cux%5Cimg%5Cux-design-mvt-test.jpg" /></p>
+</div>
+<div class="section" id="pourquoi-faire-de-la-b-testing">
+<h1>2. Pourquoi faire de l’A/B testing ?<a class="headerlink" href="#pourquoi-faire-de-la-b-testing" title="Permalink to this headline">¶</a></h1>
+<p>L’A/B testing est une technique très efficace pour comprendre le comportement de ses utilisateurs et d’augmenter son taux de conversion.</p>
+<p>L’A/B testing permet notamment :</p>
+<ul class="simple">
+<li><p>De construire et de vérifier des hypothèses en identifiant si les changements apportés ont eu un impact.</p></li>
+<li><p>De mieux comprendre comment certains éléments peuvent influencer  comportement des utilisateurs et ainsi d’optimiser leur expérience.</p></li>
+</ul>
+</div>
+<div class="section" id="quelles-sont-les-regles-de-test-a-b">
+<h1>3. Quelles sont les règles de test A/B ?<a class="headerlink" href="#quelles-sont-les-regles-de-test-a-b" title="Permalink to this headline">¶</a></h1>
+<p>Tout test multivarié doit respecter les principales règles suivantes.</p>
+<div class="section" id="regle-n1-definissez-votre-objectif">
+<h2>Règle n°1 : définissez votre objectif<a class="headerlink" href="#regle-n1-definissez-votre-objectif" title="Permalink to this headline">¶</a></h2>
+<p>Déterminez la raison pour laquelle vous souhaitez faire le test A/B et réfléchissez aux modifications qui pourraient vous faire parvenir aux résultats escomptés.</p>
+</div>
+<div class="section" id="regle-n2-testez-un-element-a-la-fois">
+<h2>Règle n°2 : testez un élément à la fois<a class="headerlink" href="#regle-n2-testez-un-element-a-la-fois" title="Permalink to this headline">¶</a></h2>
+<p>Attention à ne faire tester qu’une seule variable d’une version à l’autre afin d’être en mesure de déterminer celui qui a un impact sur le résultat de l’expérience menée. Si vous voulez tester plusieurs éléments, réalisez une nouvelle expérience pour chaque élément.<br />
+Si vous testez un contenu déjà existant, par exemple si vous voulez tester plusieurs versions d’une page web, la page A existante sera considérée comme la « version de contrôle » et la nouvelle page B comme la « version de traitement ».</p>
+</div>
+<div class="section" id="regle-n3-verifiez-si-vos-resultats-sont-statistiquement-significatifs">
+<h2>Règle n°3 : vérifiez si vos résultats sont statistiquement significatifs<a class="headerlink" href="#regle-n3-verifiez-si-vos-resultats-sont-statistiquement-significatifs" title="Permalink to this headline">¶</a></h2>
+<p>La difficulté des tests A/B réside dans le fait d’avoir une taille d’échantillon suffisamment grande. Utilisez un calculateur de taille d’échantillon pour test A/B afin de trouver la quantité appropriée.</p>
+</div>
+<div class="section" id="regle-n4-documentez-les-tests-menes">
+<h2>Règle n°4 : documentez les tests menés<a class="headerlink" href="#regle-n4-documentez-les-tests-menes" title="Permalink to this headline">¶</a></h2>
+<p>Il est primordial de documenter et archiver les tests multivariés et leurs résultats pour partager efficacement les informations à toutes les personnes concernées et optimiser le processus.</p>
+</div>
+<div class="section" id="regle-n5-testez-en-permanence">
+<h2>Règle n°5 : testez en permanence<a class="headerlink" href="#regle-n5-testez-en-permanence" title="Permalink to this headline">¶</a></h2>
+<p>L’A/B testing est un processus d’optimisation continue. À l’issue de chaque test, des enseignements sont tirés et viennent alimenter de nouvelles hypothèses à tester.</p>
+</div>
+</div>
+<div class="section" id="quels-outils-utiliser-pour-faire-de-la-b-testing">
+<h1>4. Quels outils utiliser pour faire de l’A/B testing ?<a class="headerlink" href="#quels-outils-utiliser-pour-faire-de-la-b-testing" title="Permalink to this headline">¶</a></h1>
+<p>Pour les pages de votre site : AB Tasty</p>
+<p>Pour vos landing pages : Unbounce</p>
+<p>Pour vos campagnes emailing : Mailjet</p>
+<div class="section" id="les-sources">
+<h2>Les sources :<a class="headerlink" href="#les-sources" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.sdlv.fr/blog/conversions-ux/ab-testing">Qu’est-ce que l’A/B testing ? Comment réaliser des tests A/B ? | SDLV</a></p>
+<p><a class="reference external" href="https://www.mailjet.com/blog/news/ab-testing-beginners-guide-for-email-marketing/">Email Marketing A/B Testing - A Guide</a></p>
+<p><a class="reference external" href="https://www.matthieu-tranvan.fr/wordpress/wp-content/uploads/2020/04/ux-design-mvt-test.jpg">https://www.matthieu-tranvan.fr/wordpress/wp-content/uploads/2020/04/ux-design-mvt-test.jpg</a></p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -286,7 +397,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./ux/dossiers"
+            path: "./ux/Evaluation"
         },
         predefinedOutput: true
     }
@@ -302,24 +413,6 @@
 
 <div class='prev-next-bottom'>
     
-    <div id="prev">
-        <a class="left-prev" href="../random_md.html" title="previous page">
-            <i class="prevnext-label fas fa-angle-left"></i>
-            <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">UX - Dossiers</p>
-            </div>
-        </a>
-    </div>
-     <div id="next">
-        <a class="right-next" href="sujet1.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Sujet UX 1</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         
