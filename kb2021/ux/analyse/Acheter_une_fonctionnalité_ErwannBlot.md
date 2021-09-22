@@ -1,6 +1,6 @@
 # Acheter une fonctionnalité - Erwann Blot
 
-<img title="" src="file:///C:/Users/erwan/Desktop/IUT/LP/kb2021-devmob/kb2021/ux/analyse/images/acheter_une_fonctionnalité.png" alt="" width="276">
+<img title="" src="images/acheter_une_fonctionnalité.png" alt="" width="276">
 
 ## I - C'est quoi ?
 
@@ -14,7 +14,7 @@ Le jeu est fait pour 3 à 5 personnes pour une durée maximal d'1 heure 30 (cela
 
 Les fonctionnalités reçoivent un prix en fonction de la complexité et du temps de réalisation de cette dernière (on peut s'aider d'un planning poker pour cette étape).
 
-<img title="" src="file:///C:/Users/erwan/Desktop/IUT/LP/kb2021-devmob/kb2021/ux/analyse/images/planning_poker.jpg" alt="">
+<img title="" src="images/planning_poker.jpg" alt="">
 
 Chaque joueur reçoit ensuite une quantité X d'argent à dépenser ( une variante existe avec de l'argent mais pour tous le groupe)
 
