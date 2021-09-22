@@ -2,21 +2,23 @@ Sujet UX A / B testing
 
 Auteur : Elyas ABBASI
 
-## A / B TESTING
+## 1. Qu'est-ce que l’A/B testing ?
 
-L’A/B testing est une méthode qui consiste à tester deux variations d’une seule page web afin d’observer laquelle convertit le mieux.  
+L’A/B testing est une méthode qui consiste à tester deux variations d’une seule page web afin d’observer laquelle convertit le mieux.
 
 L’objectif va être d’envoyer des visiteurs sur les deux pages afin d’obtenir un pourcentage de réussite concluant sur les deux pages.
 
-## 1. Qu'est-ce que l’A/B testing ?
+![A-Btesting-1.png](I:\Université\I.U.T\LP%20dev%20mobile%20full%20stack\kb2021-devmob\kb2021\ux\img\A-Btesting-1.png)
 
-L’A/B testing est une procédure utilisée en marketing qui permet de mesurer l’impact d’un changement de version d’une variable sur l’atteinte d’un objectif. Un test A/B permet donc de tester plusieurs versions d’un contenu digital (page Web, landing page, formulaire, email…) et d’identifier la version la plus performante selon l’objectif défini (nombre de visiteurs, clics, inscriptions, ouvertures, taux de rebond…). Lorsque plus de deux versions sont testées, on parle également d’A/X testing.
+Un test A/B permet donc de tester plusieurs versions d’un contenu digital (page Web, landing page, formulaire, email…) et d’identifier la version la plus performante selon l’objectif défini (nombre de visiteurs, clics, inscriptions, ouvertures, taux de rebond…). Lorsque plus de deux versions sont testées, on parle également d’A/X testing.
 
 Par exemple, il est possible d’A/B tester :
 
 - La photo d’un produit d’une page e-commerce pour analyser ce qui vend le plus.
 
 - l’objet d’un email pour sélectionner celui qui génère le taux d’ouverture plus élevé.
+
+![ux-design-mvt-test.jpg](I:\Université\I.U.T\LP%20dev%20mobile%20full%20stack\kb2021-devmob\kb2021\ux\img\ux-design-mvt-test.jpg)
 
 ## 2. Pourquoi faire de l’A/B testing ?
 
@@ -26,8 +28,7 @@ L’A/B testing permet notamment :
 
 - De construire et de vérifier des hypothèses en identifiant si les changements apportés ont eu un impact.
 
-- De mieux comprendre comment certains éléments peuvent influencer  
-  comportement des utilisateurs et ainsi d’optimiser leur expérience.
+- De mieux comprendre comment certains éléments peuvent influencer  comportement des utilisateurs et ainsi d’optimiser leur expérience.
 
 ## 3. Quelles sont les règles de test A/B ?
 
