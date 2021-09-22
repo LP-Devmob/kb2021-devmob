@@ -8,7 +8,7 @@ L’A/B testing est une méthode qui consiste à tester deux variations d’une 
 
 L’objectif va être d’envoyer des visiteurs sur les deux pages afin d’obtenir un pourcentage de réussite concluant sur les deux pages.
 
-![A-Btesting-1.png](I:\Université\I.U.T\LP%20dev%20mobile%20full%20stack\kb2021-devmob\kb2021\ux\img\A-Btesting-1.png)
+![A-Btesting-1.png](..\ux\img\A-Btesting-1.png)
 
 Un test A/B permet donc de tester plusieurs versions d’un contenu digital (page Web, landing page, formulaire, email…) et d’identifier la version la plus performante selon l’objectif défini (nombre de visiteurs, clics, inscriptions, ouvertures, taux de rebond…). Lorsque plus de deux versions sont testées, on parle également d’A/X testing.
 
@@ -18,7 +18,7 @@ Par exemple, il est possible d’A/B tester :
 
 - l’objet d’un email pour sélectionner celui qui génère le taux d’ouverture plus élevé.
 
-![ux-design-mvt-test.jpg](I:\Université\I.U.T\LP%20dev%20mobile%20full%20stack\kb2021-devmob\kb2021\ux\img\ux-design-mvt-test.jpg)
+![ux-design-mvt-test.jpg](..\ux\img\ux-design-mvt-test.jpg)
 
 ## 2. Pourquoi faire de l’A/B testing ?
 
