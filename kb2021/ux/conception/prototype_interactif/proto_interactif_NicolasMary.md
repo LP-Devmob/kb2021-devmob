@@ -43,6 +43,8 @@ Pour terminer, on peut ajouter au prototype interactif les travaux réalisés pa
 Cela offre une vision très précise du produit final à produire.<br><br>
 <img alt="gif" src="images/proto3.gif" width="250"><br><br>
 
+Le prototype interactif à une notion de fidélité. Un prototype peut être de basse fidélité ou de haute fidélité. <br>
+Si l'on souhaite avoir un prototype se rapprochant au maximum de la version final (liens fonctionnels, texts et images finales etc.), on s'oriente vers un prototype de haute fidélité.
 
 ## ⛽ Ressources requises
 <ul>
@@ -66,6 +68,7 @@ Voici quelques exemples d'outils permettant la création de prototypes interacti
 ## 📚 Sources
 
 https://www.arquen.fr/ux-design/prototype-interactif/ <br>
+https://www.sdlv.fr/blog/ui-design/wireframe-prototype-maquette-site <br>
 https://helpx.adobe.com/fr/xd/help/create-prototypes.html <br>
 https://www.sdlv.fr/blog/ui-design/wireframe-prototype-maquette-site <br>
 https://bemobee.com/pourquoi-faire-un-prototype-avant-de-developper-votre-application-mobile/ <br>
