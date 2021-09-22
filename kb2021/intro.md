@@ -11,6 +11,8 @@ Liste des contributeurs étudiants (2021/2022) :
 - [Tonnerre Ewen](https://github.com/ewenTonnerre)
 - [Erwann Blot](https://github.com/eblot01)
 
+- [ABBASI Elyas](https://github.com/Elyas-Abbasi)
+
 Liste des contributeurs enseignants et intervenants professionnels (2021/2022) :
 
 - [SUIRE Cyrille](https://github.com/csuire01) - La Rochelle Université
