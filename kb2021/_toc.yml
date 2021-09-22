@@ -24,4 +24,5 @@ parts:
       - file: ux/dossiers/sujet1
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
+      - file: ux/dossiers/Warm_Up_Alexandre_Dufau
     - file: ux/random_md2
