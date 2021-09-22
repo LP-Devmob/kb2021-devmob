@@ -10,6 +10,7 @@ L’objectif va être d’envoyer des visiteurs sur les deux pages afin d’obte
 
 <img title="" src="../img/A-Btesting.png" alt="">
 
+
 Un test A/B permet donc de tester plusieurs versions d’un contenu digital (page Web, landing page, formulaire, email…) et d’identifier la version la plus performante selon l’objectif défini (nombre de visiteurs, clics, inscriptions, ouvertures, taux de rebond…). Lorsque plus de deux versions sont testées, on parle également d’A/X testing.
 
 Par exemple, il est possible d’A/B tester :
