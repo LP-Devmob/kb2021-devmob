@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I - Qu’est-ce que l’Eye Tracking ? &#8212; LP CDTL Devmob - KB2021</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">LP CDTL Devmob - KB2021</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   LP CDTL Devmob - base de connaissance 2021/2022
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Harmonisation BD
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../harmonisation_bd/random_md.html">
+   Harmonisation BD
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Gestion de projet
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../gpi/random_md.html">
+   Gestion de projet informatique
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Devops
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../devops/random_md.html">
+   Devops
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  UX
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../random_md.html">
+   UX - Dossiers
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet1.html">
+     Sujet UX 1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet2.html">
+     Sujet UX 2
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet3.html">
+     Sujet UX 3
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/ux_kpi.html">
+     Sujet à moi et rien qu’à moi
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../random_md2.html">
+   UX - exemple
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/ux/Evaluation/EyeTrackingTHINNES.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob/issues/new?title=Issue%20on%20page%20%2Fux/Evaluation/EyeTrackingTHINNES.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   <u>
+    I - Qu’est-ce que l’Eye Tracking ?
+   </u>
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#u-ii-leye-tracking-dans-lux-design-u">
+   <u>
+    II - L’Eye Tracking dans l’UX design :
+   </u>
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#u-a-deroulement-de-lactivite-devaluation-u">
+     <u>
+      a)	Déroulement de l’activité d’évaluation :
+     </u>
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#u-b-lutilite-du-rapport-u">
+     <u>
+      b)	L’utilité du rapport
+     </u>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#u-iii-les-freins-de-cette-methode-u">
+   <u>
+    III – Les Freins de cette méthode :
+   </u>
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#u-sources-u">
+   <u>
+    Sources :
+   </u>
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>Rédigé par Léo THINNES</p>
+<hr class="docutils" />
+<h1 style="text-align:center">Eye Tracking</h1>
+<p>Dans l’UX Design l’Eye Tracking est une méthode <b>d’évaluation</b> de l’application.</p>
+<div class="section" id="u-i-quest-ce-que-leye-tracking-u">
+<h1><u>I - Qu’est-ce que l’Eye Tracking ?</u><a class="headerlink" href="#u-i-quest-ce-que-leye-tracking-u" title="Permalink to this headline">¶</a></h1>
+<p style="text-align: justify;">L’Eye Tracking ou oculométrie en français est une technologie permettant de savoir où et comment une personne regarde. Concrètement, une lumière infrarouge est émise en direction de son œil. Elle s’y reflète et une caméra enregistre les reflets engendrés, permettant un calcul en temps réel de la position du regard. </p>
+<p><img alt="schema" src="https://christopheriedel.files.wordpress.com/2013/09/5ca676a4b4d98df1addea66972bba271_large.jpeg?w=700&amp;h=394&amp;crop=1" /><br>
+Figure 1 : illustration du fonctionnement de l’Eye Tracking<br><br></p>
+<p style="text-align: justify;">Si vous connaissez cette technologie c’est certainement grâce aux différentes vidéos disponibles sur internet ou les personnes ne doivent pas regarder à certains endroits dans une compilation d’images ou de vidéos cependant la méthode est utilisée dans de nombreux domaines, de la recherche biomédicale au marketing et à l’ergonomie web.</p>
+<br>
+</div>
+<div class="section" id="u-ii-leye-tracking-dans-lux-design-u">
+<h1><u>II - L’Eye Tracking dans l’UX design :</u><a class="headerlink" href="#u-ii-leye-tracking-dans-lux-design-u" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="u-a-deroulement-de-lactivite-devaluation-u">
+<h2><u>a)	Déroulement de l’activité d’évaluation :</u><a class="headerlink" href="#u-a-deroulement-de-lactivite-devaluation-u" title="Permalink to this headline">¶</a></h2>
+<p style="text-align: justify;">Dans un premier temps un utilisateur va s’installer et on va calibrer l’Eye Tracker pour cet utilisateur. 
+Une fois cela fait on va lui donner les consignes de ce qu’il va se passer de manière précise. On va lui demander d’exécuter une ou différentes tâches précises et bien expliquée(s) car si l’utilisateur lève les yeux de l’écran pour poser une question comme « et maintenant je dois faire quoi ? » alors le test sera faussé car pendant l’attente de la réponse ses yeux vont se balader sur tout l’écran sans logique particulière. L’utilisateur ne doit donc pas être déconcentrer et l’expérience ne doit pas durer trop longtemps non plus car au bout d’un certain moment la concentration de l’utilisateur va chuter et une fatigue oculaire va commencer à se mettre en place ce qui faussera les résultats. La durée optimale de l’exercice serait une vingtaine de minutes.
+Une fois l’expérience finie nous obtenons un rapport qui peut être sous la forme d’Heatmaps et/ou de scanpath avec ce qui a été regardé ou non et pendant combien de temps.</p> 
+<p><img alt="heatmap" src="https://www.usability.gov/sites/default/files/images/eye-tracking-full-option2.jpg" /> <br>
+Figure 2 : Rapport Heatmap</p>
+<p><img alt="heatmap" src="https://www.researchgate.net/profile/Joseph-Goldberg/publication/220811069/figure/fig4/AS:667773512454146&#64;1536221020110/A-scanpath-from-a-single-observer-trying-to-locate-content-within-the-lower-right-hand_Q320.jpg" /><br>
+Figure 3 : Rapport Scanpath<br></p>
+</div>
+<div class="section" id="u-b-lutilite-du-rapport-u">
+<h2><u>b)	L’utilité du rapport</u><a class="headerlink" href="#u-b-lutilite-du-rapport-u" title="Permalink to this headline">¶</a></h2>
+<p style="text-align: justify;">Ce rapport nous permet : <br>
+•	De distinguer les zones regardées des zones ignorées (pas besoin de demander où regarde le participant) : Une zone qui est intéressante est longtemps et/ou fréquemment regardée par l’utilisateur. Une zone inintéressante est regardée rapidement (quelques points de fixation), cependant une zone regardée pendant longtemps peut aussi être une zone compliquée où l’utilisateur ne sait pas quoi faire et passe longtemps à comprendre.<br><br>
+•	D’identifier les freins à une lecture efficace et agréable (lisibilité des textes, largeurs des paragraphes, retour en arrière dans la lecture, etc.). S’il doit souvent recommencer à lire la même ligne ce n’est pas normal.<br><br>
+•	Connaître l’ordre de déplacement du regard sur l’interface (ce qui attire l’œil en premier, l’efficacité des déplacements dans un scénario, les zones entre lesquelles ils naviguent si elles sont bien distinctes)<br><br>
+•	De vérifier la pertinence de certains emplacements plutôt que d’autres pour un bouton, une fonction, une image, etc.<br><br>
+•	D’appréhender comment les utilisateurs recherchent l’information dans l’interface, et donc d’adapter la place des éléments en conséquence</p><br><br>
+</div>
+</div>
+<div class="section" id="u-iii-les-freins-de-cette-methode-u">
+<h1><u>III – Les Freins de cette méthode :</u><a class="headerlink" href="#u-iii-les-freins-de-cette-methode-u" title="Permalink to this headline">¶</a></h1>
+<p style="text-align: justify;">Le regard ne dit pas tout et par conséquent cette méthode ne doit pas être la seule réalisée pour connaitre l’expérience d’un utilisateur :<br>
+L’utilisateur peut percevoir l’information sans y être pleinement attentif (les yeux se posent rapidement à un endroit soit parce que l’information est attendue/évidente/attirante, soit parce qu’elle attire d’un point de vue strictement graphique).
+Le regard ne dit pas pourquoi il s’est posé à tel endroit (information pertinente/claire ou non ? regard guidé par le design ?).<br><br> De plus les zones d’intérêt ou certains parcours visuels un peu brouillon, ne peuvent pas être analysés seuls et être pleinement explicites pour conclure à une expérience utilisateur efficace et satisfaisante, notamment lors de parcours entre pages distinctes.<br><br>
+Les résultats ne permettent pas de savoir concrètement ce qui est bien fait ou apprécié dans l’interface, de ce qui ne l’est pas. Les utilisateurs sont attentifs à leurs propres impressions, à leur niveau d’adhésion ou de séduction à une interface. Nous savons donc ce qu’ils ont regardé mais nous ne connaissons pas leurs ressenti face à la situation.<br>
+Aussi, dans un test utilisateur, l’utilisateur peut être tenté d’alterner entre l’interface et l’intervieweur, d’où une navigation non-naturelle. Ce qui oblige à cadrer le participant pour ne pas fausser le résultat.
+Également la précision des enregistrements manque de robustesse pour les interfaces nomades (Smartphone, tablette) de plus en plus répandus, car disposant d’écrans de moindre taille. </p>
+<br>
+Si tout cela n’est toujours pas clair voici une vidéo expliquant l’utilité de l’Eye Tracking dans l’UX design et dans la recherche :
+https://www.youtube.com/watch?v=ConsSlIf6n4 
+<br><br>
+</div>
+<div class="section" id="u-sources-u">
+<h1><u>Sources :</u><a class="headerlink" href="#u-sources-u" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://www.ux-republic.com/eye-tracking/">https://www.ux-republic.com/eye-tracking/</a>
+<br>
+<a class="reference external" href="https://www.usabilis.com/eye-tracking-methode-ergonomique-test/">https://www.usabilis.com/eye-tracking-methode-ergonomique-test/</a>
+<br>
+<a class="reference external" href="https://xd.adobe.com/ideas/process/user-research/eye-tracking-and-usability/">https://xd.adobe.com/ideas/process/user-research/eye-tracking-and-usability/</a>
+<br>
+<a class="reference external" href="https://www.inserm.fr/c-est-quoi/suivez-mon-regard-c-est-quoi-eye-tracking/">https://www.inserm.fr/c-est-quoi/suivez-mon-regard-c-est-quoi-eye-tracking/</a></p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./ux/Evaluation"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By LP CDTL Devmob team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
