@@ -22,7 +22,7 @@ parts:
     - file: ux/random_md
       sections:
       - file: ux/dossiers/ux_Abbasi_elyas.md
-      - file: ux/conception/User_journey
+      - file: ux/conception/User_Journey/User_journey
       - file: ux/dossiers/sujet1
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
