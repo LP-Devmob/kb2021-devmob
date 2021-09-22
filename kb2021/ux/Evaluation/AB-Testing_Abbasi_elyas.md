@@ -62,3 +62,11 @@ Pour les pages de votre site : AB Tasty
 Pour vos landing pages : Unbounce
 
 Pour vos campagnes emailing : Mailjet
+
+#### Les sources :
+
+[Qu&#039;est-ce que l&#039;A/B testing ? Comment réaliser des tests A/B ? | SDLV](https://www.sdlv.fr/blog/conversions-ux/ab-testing)
+
+[Email Marketing A/B Testing - A Guide](https://www.mailjet.com/blog/news/ab-testing-beginners-guide-for-email-marketing/)
+
+https://www.matthieu-tranvan.fr/wordpress/wp-content/uploads/2020/04/ux-design-mvt-test.jpg
