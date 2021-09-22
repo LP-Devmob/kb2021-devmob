@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un outil de conception : le Brainstorming &#8212; LP CDTL Devmob - KB2021</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">LP CDTL Devmob - KB2021</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   LP CDTL Devmob - base de connaissance 2021/2022
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Harmonisation BD
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../harmonisation_bd/random_md.html">
+   Harmonisation BD
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Gestion de projet
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../gpi/random_md.html">
+   Gestion de projet informatique
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Devops
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../devops/random_md.html">
+   Devops
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  UX
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../random_md.html">
+   UX - Dossiers
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet1.html">
+     Sujet UX 1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet2.html">
+     Sujet UX 2
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/sujet3.html">
+     Sujet UX 3
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../dossiers/ux_kpi.html">
+     Sujet à moi et rien qu’à moi
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../random_md2.html">
+   UX - exemple
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/ux/conception/brainstorming_rachel_cauchois.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob/issues/new?title=Issue%20on%20page%20%2Fux/conception/brainstorming_rachel_cauchois.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Un outil de conception : le Brainstorming
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduction">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#une-veritable-methode">
+     Une véritable méthode
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#le-role-de-lanimateur">
+     Le rôle de l’animateur
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sources">
+   Sources
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>Rachel CAUCHOIS</p>
+<div class="section" id="un-outil-de-conception-le-brainstorming">
+<h1>Un outil de conception : le Brainstorming<a class="headerlink" href="#un-outil-de-conception-le-brainstorming" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Le terme “Brainstorming” est un anglicisme passé dans le langage courant (malgré une traduction française  officielle : le Remue-méninges). Mais même si chacun a déjà pû entendre et utiliser ce mot, on en garde peut-être une image incomplète : dans l’idée générale c’est une réflexion collective, où un groupe se réunit pour faire émerger des idées. Cette définition occulte le côté méthodique du Brainstorming, pourtant crucial.
+Pour définir plus précisément ce qu’est le brainstorming, il faut avant tout préciser que c’est une technique d’idéation de groupe (l’idéation étant un processus créatif de production, développement, et communication de nouvelles idées ), inventée en 1940 par Alex Osborn, un publicitaire américain (et fondateur de l’agence de publicité BBDO, une des plus importantes du monde). Le but de la technique est de résoudre un problème en récoltant des idées nombreuses et originales.
+Cette méthode a été lancée pour promouvoir l’agence d’Osborn et a ensuite été formalisée dans son livre, Your Creative Power, en 1953.</p>
+</div>
+<div class="section" id="une-veritable-methode">
+<h2>Une véritable méthode<a class="headerlink" href="#une-veritable-methode" title="Permalink to this headline">¶</a></h2>
+<p>En tant que technique, le Brainstorming fonctionne par étapes formalisées, dirigées par un animateur.</p>
+<ul class="simple">
+<li><p>Phase de préparation
+Un groupe constitué de 5 à 10 personnes est formé. Il faudra veiller à constituer un groupe hétérogène, avec des individus ayant des points de vue contrastés sur le projet, afin de favoriser la diversité des idées. Une réflexion sera également menée sur les outils utilisés lors de la session de brainstorming (projections, paperboard…), ainsi que sur l’environnement de travail (on recherchera une  atmosphère détendue afin de favoriser les échanges).</p></li>
+<li><p>Phase de cadrage
+Il s’agira d’être certain que les participants sont tous d’accord sur la nature du problème à résoudre (ou la question à travailler). Le temps alloué à la recherche d’idées et le périmètre de cette recherche devront également être définis, en accord avec tous les participants.</p></li>
+<li><p>Phase de production
+C’est la phase de création que l’on a le plus souvent à l’esprit quand on pense au brainstorming.
+Cette phase débute par un rappel des règles à respecter lors de la session, et en particulier :</p>
+<ul>
+<li><p>Ne pas s’autocensurer (ce qui peut être difficile)</p></li>
+<li><p>Ne pas critiquer les autres</p></li>
+<li><p>Maintenir un rythme soutenu pour que les idées “fusent”</p></li>
+<li><p>S’appuyer sur les idées déjà émises (on recherche en effet un “enchaînement d’idées”)</p></li>
+</ul>
+</li>
+</ul>
+<p>On va donc tenter de favoriser la spontanéité de chacun des participants, sans que des jugements de valeur n’obstruent le processus créatif. Même si on cherche à obtenir un grand nombre d’idées, il s’agira de s’assurer que tout est compris par chacun des participants, l’animateur pouvant demander aux intervenants de développer leurs idées pour les rendre plus claires. De plus, les idées pouvant sembler “farfelues” au premier abord ne doivent surtout pas être écartées, car elles peuvent être source de véritables innovations.</p>
+<ul class="simple">
+<li><p>Phase de filtrage des idées
+Il s’agira de reprendre la liste des idées produites pour les classer, les regrouper en métas idées afin d’obtenir une liste d’idées plus réduites et distinctes. L’équipe définira ensuite des critères d’appréciation pour déterminer les idées qui semblent les plus intéressantes et pertinentes à travailler par la suite. A l’issue du brainstorming, l’animateur ou le secrétaire de séance fera parvenir aux personnes concernées par la session un résumé des solutions émergentes.</p></li>
+</ul>
+</div>
+<div class="section" id="le-role-de-lanimateur">
+<h2>Le rôle de l’animateur<a class="headerlink" href="#le-role-de-lanimateur" title="Permalink to this headline">¶</a></h2>
+<p>L’animateur est le “pilote” du processus d’idéation, il est donc absolument nécessaire lors d’une session de brainstorming. Il s’agit en général d’une personne interne à l’entreprise, qui connaît bien le projet sur lequel va travailler le groupe. Il doit bien sûr posséder une certaine aisance à l’oral, et posséder des qualités organisationnelles. Il est également possible, si personne ne se porte volontaire, de faire appel à une société extérieure qui propose des services d’animation de brainstorming.
+C’est donc l’animateur qui se charge de l’organisation pratique de la séance, mais également lui qui peut proposer des méthodes de travail lors de la séance, qui va recadrer la recherche si les participants s’écartent du périmètre défini au départ…
+Le plus souvent, c’est également lui qui joue le rôle de secrétaire de séance (mais il est également possible d’avoir une personne dédiée pour cela). Le rôle du secrétaire sera de noter tout ce qui est dit durant la session, sans tri ni jugement de valeur : il a un devoir de neutralité.</p>
+</div>
+</div>
+<div class="section" id="sources">
+<h1>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="http://wikipedia.org">wikipedia.org</a> (Brainstorming, Alex Osborn, BBDO)</p></li>
+<li><p><a class="reference external" href="https://www.manager-go.com/gestion-de-projet/dossiers-methodes/remue-meninges">https://www.manager-go.com/gestion-de-projet/dossiers-methodes/remue-meninges</a></p></li>
+<li><p><a class="reference external" href="https://www.wojo.com/blog/la-boite-a-outils/2016/08/29/meilleures-techniques-animer-brainstorming/">https://www.wojo.com/blog/la-boite-a-outils/2016/08/29/meilleures-techniques-animer-brainstorming/</a></p></li>
+<li><p><a class="reference external" href="https://www.cairn.info/les-grands-auteurs-en-management-de-l-innovation--9782847698121-page-575.html">https://www.cairn.info/les-grands-auteurs-en-management-de-l-innovation–9782847698121-page-575.html</a></p></li>
+</ul>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./ux/conception"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By LP CDTL Devmob team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
