@@ -25,4 +25,14 @@ parts:
       - file: ux/dossiers/sujet2
       - file: ux/dossiers/sujet3
       - file: ux/dossiers/Warm_Up_Alexandre_Dufau
+      - file: ux/dossiers/ux_Abbasi_elyas.md
+      - file: ux/conception/User_Journey/User_journey.md
+      - file: ux/dossiers/ux_kpi
     - file: ux/random_md2
+  # bboost
+  - caption: B-Boost
+    chapters:
+    - file: bboost/CyberSécurité&VieQuotidienne
+    - file: bboost/CyberSécurité
+    - file: bboost/MonnaiesLocales
+    - file: bboost/RésilienceNumérique
