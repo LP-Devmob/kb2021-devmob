@@ -9,7 +9,7 @@ Liste des contributeurs étudiants (2021/2022) :
 - [NOM Prenom](https://github.com/github_id)
 - [MARY Nicolas](https://github.com/Nicobond07)
 - [Tonnerre Ewen](https://github.com/ewenTonnerre)
-- [Erwann Blot](https://github.com/eblot01)
+- [BLOT Erwann](https://github.com/eblot01)
 
 - [ABBASI Elyas](https://github.com/Elyas-Abbasi)
 
