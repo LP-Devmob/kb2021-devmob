@@ -25,7 +25,9 @@ parts:
       - file: ux/dossiers/ux_Abbasi_elyas.md
       - file: ux/dossiers/ux-Theodet_Julien
       - file: ux/conception/User_Journey/User_journey.md
+      - file: ux/conception/Nulens_Wireframes.md
       - file: ux/dossiers/ux_kpi
       - file: ux/Bonnes_pratiques_UX.md
       - file: ux/dossiers/shadowing_maxence_pille
     - file: ux/random_md2
+
