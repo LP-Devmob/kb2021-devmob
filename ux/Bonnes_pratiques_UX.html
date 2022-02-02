@@ -1,0 +1,619 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonnes pratiques UX &#8212; LP CDTL Devmob - KB2021</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="IUT La Rochelle" href="dossiers/shadowing_maxence_pille.html" />
+    <link rel="prev" title="Sujet à moi et rien qu’à moi" href="dossiers/ux_kpi.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">LP CDTL Devmob - KB2021</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   LP CDTL Devmob - base de connaissance 2021/2022
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Harmonisation BD
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../harmonisation_bd/random_md.html">
+   Harmonisation BD
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Gestion de projet
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../gpi/random_md.html">
+   Gestion de projet informatique
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Devops
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../devops/random_md.html">
+   Devops
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  UX
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="random_md.html">
+   UX - Dossiers
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="dossiers/Warm_Up_Alexandre_Dufau.html">
+     Warm Up
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="conception/User_Journey/User_journey.html">
+     User Journey
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="dossiers/ux_kpi.html">
+     Sujet à moi et rien qu’à moi
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Bonnes pratiques UX
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="dossiers/shadowing_maxence_pille.html">
+     IUT La Rochelle
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="random_md2.html">
+   UX - exemple
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/ux/Bonnes_pratiques_UX.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/LP-Devmob/kb2021-devmob/issues/new?title=Issue%20on%20page%20%2Fux/Bonnes_pratiques_UX.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#captivez-avec-une-histoire">
+   Captivez avec une histoire
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#storytelling">
+     ✔️ STORYTELLING
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#comment-l-appliquer">
+       Comment l’appliquer ❓
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#la-structure-prototype-d-une-bonne-histoire-et-l-arc-dramatique">
+       La structure prototype d’une bonne histoire et l’arc dramatique
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#resume">
+       💡 Résumé
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#l-heros-de-l-histoire">
+     ✔️ L’HÉROS DE L’HISTOIRE
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#les-caracteristiques-du-heros">
+       Les caracteristiques du héros
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Comment l’appliquer ❓
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       💡 Résumé
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#engagez-vos-utilisateurs-a-raconter-leur-histoire">
+     ✔️ Engagez vos utilisateurs à raconter leur histoire
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Comment l’appliquer  ❓
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#source">
+     Source
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Bonnes pratiques UX</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#captivez-avec-une-histoire">
+   Captivez avec une histoire
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#storytelling">
+     ✔️ STORYTELLING
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#comment-l-appliquer">
+       Comment l’appliquer ❓
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#la-structure-prototype-d-une-bonne-histoire-et-l-arc-dramatique">
+       La structure prototype d’une bonne histoire et l’arc dramatique
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#resume">
+       💡 Résumé
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#l-heros-de-l-histoire">
+     ✔️ L’HÉROS DE L’HISTOIRE
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#les-caracteristiques-du-heros">
+       Les caracteristiques du héros
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Comment l’appliquer ❓
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       💡 Résumé
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#engagez-vos-utilisateurs-a-raconter-leur-histoire">
+     ✔️ Engagez vos utilisateurs à raconter leur histoire
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Comment l’appliquer  ❓
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#source">
+     Source
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="bonnes-pratiques-ux">
+<h1>Bonnes pratiques UX<a class="headerlink" href="#bonnes-pratiques-ux" title="Permalink to this headline">¶</a></h1>
+<p>Auteur : Andrés López</p>
+<div class="section" id="captivez-avec-une-histoire">
+<h2>Captivez avec une histoire<a class="headerlink" href="#captivez-avec-une-histoire" title="Permalink to this headline">¶</a></h2>
+<p>Une des bonnes pratiques UX est l’usage des “histoires”. Elles sont capables de créer une bonne expérience pour les utilisateur. À ce point qu’ils racontreront auteur d’eux et ils auront envie qu’on leur racontre à nouveau. Pour parvenir cet objetif, le bon designer UX  devra savoir organiser des bons scénarios et positionner l’utilisateur en tant qu’héros de l’histoire qui lui captive.</p>
+<div class="section" id="storytelling">
+<h3>✔️ STORYTELLING<a class="headerlink" href="#storytelling" title="Permalink to this headline">¶</a></h3>
+<p>Nous adorons les histoires. Les histoires sont traitées de manière différent par le cerveau et cela leur donne un avantages sur les autres formes d’information.</p>
+<p>Durant les histoires, nous construisons des modèles pour former des liens de cause à effet entre divers événements de l’histoire et ainsi leui donner un sens.</p>
+<div class="section" id="comment-l-appliquer">
+<h4>Comment l’appliquer ❓<a class="headerlink" href="#comment-l-appliquer" title="Permalink to this headline">¶</a></h4>
+<p>Raconter des histoires sert à :</p>
+<ul class="simple">
+<li><p>Guider le visiteur sur un parcours</p></li>
+<li><p>Expliquer comment prendre en main un logiciel</p></li>
+<li><p>Expliquer comment fonctionne un produit</p></li>
+<li><p>Présenter une marque, etc.</p></li>
+</ul>
+<p>Pour construire une bonne histoire :</p>
+<ol class="simple">
+<li><p>Cibilez votre audotoire.</p></li>
+<li><p>Définissez votre message de fin  : le dénoument et la résolution de la question de départ.</p></li>
+<li><p>Soignez l’entrée en matière. Accrochez vos audieur/lecteurs : posez le probème de départ, brossez le personnage principal et plantez le décor.</p></li>
+</ol>
+</div>
+<div class="section" id="la-structure-prototype-d-une-bonne-histoire-et-l-arc-dramatique">
+<h4>La structure prototype d’une bonne histoire et l’arc dramatique<a class="headerlink" href="#la-structure-prototype-d-une-bonne-histoire-et-l-arc-dramatique" title="Permalink to this headline">¶</a></h4>
+<p>Si vous sohaitez raconter une histoire complète, vous pouvez vous guider grâce à l’arc dramatique. Qui comporte de cinq étapes.</p>
+<img title="" src="https://suis-lelan.fr/wp-content/uploads/2019/03/Pyramide-de-Freytag.png" alt="">
+<ul class="simple">
+<li><p><strong>La situation de départ :</strong> Où sont plantés les décors et les principaux personages.</p></li>
+<li><p><strong>Action montante :</strong> Il arrive un événement qui perturbe la situation de départ : “la crise” .</p></li>
+<li><p><strong>Point culminant :</strong> Le moment qui offre le plus de tension dramatique.</p></li>
+<li><p><strong>Action en chute :</strong> Le moment que l’on peut croire que tout est fini, mais non.</p></li>
+<li><p><strong>Dénouement :</strong> Il s’agit de la solutin du problème.</p></li>
+</ul>
+</div>
+<div class="section" id="resume">
+<h4>💡 Résumé<a class="headerlink" href="#resume" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Les histoires :</p>
+<ul>
+<li><p>solliciter davantage l’attention</p></li>
+<li><p>sont plus faciles à coprendre</p></li>
+<li><p>sont plus faciles à mémoriser</p></li>
+</ul>
+</li>
+<li><p>L’arc dramatique provoque des émotions</p></li>
+<li><p>Ajoutez des émotions pour rendre l’histoires plus attractive</p></li>
+<li><p>Suivez les étapes d’une bonne construction d’histoire</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="l-heros-de-l-histoire">
+<h3>✔️ L’HÉROS DE L’HISTOIRE<a class="headerlink" href="#l-heros-de-l-histoire" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="les-caracteristiques-du-heros">
+<h4>Les caracteristiques du héros<a class="headerlink" href="#les-caracteristiques-du-heros" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>L’héros est une personne ordinaire qui reçoit un “appel”.</p></li>
+<li><p>Il rechigne dans un premier temps à accepter la mission.</p></li>
+<li><p>Une circonstance, qui l’oblige à faire le premier pas.</p></li>
+<li><p>Il fait face à des situations qui viennent le tester.</p></li>
+<li><p>Il rencontre des personnes qui vont l’aider.</p></li>
+<li><p>Il va subir une épreuve terrible.</p></li>
+<li><p>Il réussit à traverser ces épreuves et trouve une solution.</p></li>
+<li><p>Il se transforme et rapport le trésor</p></li>
+</ul>
+<img title="" src="https://medias.cerveauetpsycho.fr/api/v1/images/view/5a82ab3e8fe56f7c27053bda/wide_1300/image.jpg" alt="">
+</div>
+<div class="section" id="id1">
+<h4><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id2">
+<h4>Comment l’appliquer ❓<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>Les deux manière de racontrer une histoire en mettant votre utilisateur au centre:</p>
+<ul class="simple">
+<li><p>Pour présenter votre produit/service : Amener son produit en racontant une histoire.</p></li>
+<li><p>Pour vanter vos méthodologies avec des méthodes comme :</p>
+<ul>
+<li><p>Des scénarios (storyboards)  :  Courts récits illustrés, qui présentent l’interaction entre l’utilisateur et le produit/service.</p></li>
+<li><p>De l’experience map : Répresentation chronologique des interaction entre utilisateur et produit/service.</p></li>
+<li><p>Des personas : Modèle des différents utilisateurs d’un produit/service qui détaille qui ils sont, leur aspirations et leur besoins.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h4>💡 Résumé<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Utilisez les caractéristiques du héros pour créer l’empathie avec personnages.</p></li>
+<li><p>Racontez des histoires pour attirer l’attention des utilisateurs.</p></li>
+<li><p>Rancontez des histoires pour vanter vos méthodologies et présenter votre produit/service.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="engagez-vos-utilisateurs-a-raconter-leur-histoire">
+<h3>✔️ Engagez vos utilisateurs à raconter leur histoire<a class="headerlink" href="#engagez-vos-utilisateurs-a-raconter-leur-histoire" title="Permalink to this headline">¶</a></h3>
+<p>Le principe est que quand une personne pose un acte de manière librement consentie, sans obligation, cela l’engage.  En outre, il est plus engageant de poser un acte public, comme écrire un commentaire.</p>
+<p>Lorsqu’une personne a l’impression qu’elle est libre d’accepter ou non ce qu’on lui demande de faire, elle sera plus à mème de l’accepter.</p>
+<div class="section" id="id4">
+<h4>Comment l’appliquer  ❓<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>Comment faire passer notre client de client content à ambassadeur du produit?</p>
+<p>Il faut lui faure poser un acte, en lui proposant de remplir une évaluation, de rédiger une recommandation ou de répondre à un questionnaire de satisfaction.</p>
+<img title="" src="https://www.tomsguide.fr/content/uploads/sites/2/2019/03/front-2.png" alt="">
+</div>
+</div>
+<div class="section" id="source">
+<h3>Source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h3>
+<p>Lefebvre, L. D. (2020). <em>33 bonnes pratiques en UX
+design : Les fundamentaux de la psychologie numérique.</em> Paris: Éditions
+Eyrolles.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./ux"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="dossiers/ux_kpi.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Sujet à moi et rien qu’à moi</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="dossiers/shadowing_maxence_pille.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">IUT La Rochelle</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By LP CDTL Devmob team<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
